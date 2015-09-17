@@ -46,19 +46,19 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "basicBot",
-      language: "english",
-      chatLink: "https://rawgit.com/bscBot/source/master/lang/en.json",
+      botName: "WorldBot",
+      language: "portuguese",
+      chatLink: "https://rawgit.com/carlosney/basicBot/master/lang/pt-BR.json",
       scriptLink: "https://rawgit.com/bscBot/source/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
       startupVolume: 0, // 0-100
       startupEmoji: false, // true or false
       autowoot: true,
-      autoskip: false,
+      autoskip: true,
       smartSkip: true,
       cmdDeletion: true,
-      maximumAfk: 120,
+      maximumAfk: 60,
       afkRemoval: true,
       maximumDc: 60,
       bouncerPlus: true,
@@ -70,13 +70,13 @@
       maximumCycletime: 10,
       voteSkip: false,
       voteSkipLimit: 10,
-      historySkip: false,
+      historySkip: true,
       timeGuard: true,
-      maximumSongLength: 10,
+      maximumSongLength: 9,
       autodisable: true,
-      commandCooldown: 30,
+      commandCooldown: 4,
       usercommandsEnabled: true,
-      skipPosition: 3,
+      skipPosition: 1,
       skipReasons: [
       ["theme", "This song does not fit the room theme. "],
       ["op", "This song is on the OP list. "],
@@ -88,9 +88,9 @@
       ],
       afkpositionCheck: 15,
       afkRankCheck: "ambassador",
-      motdEnabled: false,
-      motdInterval: 5,
-      motd: "Temporary Message of the Day",
+      motdEnabled: true,
+      motdInterval: 10,
+      motd: "Entrem no nosso grupo do FB http://goo.gl/8iFw1s , e curtam a nossa página http://goo.gl/gxOOmp :kiss: :sparkles:",
       filterChat: true,
       etaRestriction: false,
       welcome: true,
@@ -102,7 +102,7 @@
       website: null,
       intervalMessages: [],
       messageInterval: 5,
-      songstats: true,
+      songstats: false,
       commandLiteral: "!",
       blacklists: {
         NSFW: "https://rawgit.com/bscBot/custom/master/blacklists/NSFWlist.json",
