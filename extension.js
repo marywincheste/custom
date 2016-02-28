@@ -55,7 +55,7 @@
       startupVolume: 0, // 0-100
       startupEmoji: false, // true or false
       autowoot: true,
-      autoskip: false,
+      autoskip: true,
       smartSkip: true,
       cmdDeletion: true,
       maximumAfk: 60,
